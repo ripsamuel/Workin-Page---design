@@ -1,0 +1,53 @@
+<section class="grid grid-flow-col text-md " style="grid-auto-rows: min-content;">
+    <div class="gap-4 bg-gray-100 h-6 title-font ">
+      <span class="flex items-center">
+        <!-- columna 1 -->
+        <label>Steps</label>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+        </svg>
+      </span>
+      <div class="">
+        <ul class="table__item  "><span class="text-passed mr-2 ">+</span> Given that Ricardo has Ricardo has Ricardo
+          has Ricardo has Ricardo has Ricardo has signed up with his personal information</ul>
+        <ul class="table__item text-failed"><span class=" mr-2">+</span> Then he should be able see that the 'Email
+          Verification' page is complete displayed</ul>
+      </div>
+    </div>
+
+    <!-- columna 2 -->
+    <div class=" table__header title-font"><label>Screenshots</label>
+      <div class="">
+        <ul class="table__item "><img alt="img" /></ul>
+      </div>
+    </div>
+    <!-- columna 3 -->
+    <div class=" table__header title-font">
+      <span class="flex  items-center">
+        <label>Outcome</label>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+        </svg>
+      </span>
+      <div class="">
+        <ul class="table__item ">SUCESS</ul>
+        <ul class="table__item  text-failed">SUCESS</ul>
+      </div>
+    </div>
+
+    <!-- columna 4 -->
+    <div class=" table__header title-font">
+      <span class="flex items-center">
+        <label>Duration</label>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+        </svg>
+      </span>
+      <div class="grid grid-flow-row">
+        <ul class="table__item  "> null ms </ul>
+        <ul class="table__item  text-failed"> null ms</ul>
+      </div>
+      
+      
+  </section>
+  

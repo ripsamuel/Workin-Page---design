@@ -7,14 +7,14 @@
     @apply  text-sm w-20 h-10 bg-blue-500 text-white rounded-lg font-medium text-center items-center;
 }
 .title-font {
-    @apply text-lg font-medium ;
+    @apply text-lg font-semibold ;
 }
 
 .table__item {
-    @apply  mt-4 text-xl font-light h-auto sm:h-14;
+    @apply  mt-4 text-xl font-light px-2 ;
 }
 .table__header {
-    @apply bg-gray-100 h-6 px-4 w-40;
+    @apply bg-gray-100 h-6 px-4 ;
 }
 @tailwind utilities;
 

@@ -2,6 +2,8 @@
 export default {
   content: [
      "./build/index.html",
+     "./src/home.html",
+     "./src/**/*.{html,js}",
      "./build/css/output.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],

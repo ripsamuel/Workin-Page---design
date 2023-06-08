@@ -10,7 +10,7 @@
 
 </head>
 
-<body class="">
+<body>
   <section class="px-8 py-12">
     <!-- navigation title -->
     <nav class="flex h-16 title-font ">
@@ -42,7 +42,7 @@
         </div>
       </article>
       <!-- sidebar -->
-      <aside class="w-2/5 flex-shrink-0 h-52 ml-6 gap-y-2">
+      <aside class="w-2/5 flex-shrink-0 h-52 ml-6 ">
         <button class="aside__btn">Chrome (browser)</button>
         <button class="aside__btn">CAR-250 (Desktop)</button>
         <button class="aside__btn">Assertion Error (Issue)</button>
@@ -51,61 +51,103 @@
       </aside>
     </div>
     <!-- menu -->
-    <section class="grid grid-flow-col text-md  ">
-      <div class="gap-4 bg-gray-100 h-6 title-font ">
-        <span class="flex items-center">
-          <label>Steps</label>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
-          </svg>
-        </span>
-        <div class="grid grid-flow-row">
-          <ul class="table__item "><span class="text-passed mr-2 ">+</span> Given that Ricardo has Ricardo has Ricardo
-            has Ricardo has Ricardo has Ricardo has signed up with his personal information</ul>
-          <ul class="table__item text-failed"><span class=" mr-2">+</span> Then he should be able see that the 'Email
-            Verification' page is complete displayed</ul>
-        </div>
-      </div>
+    <section>
 
-      <div class=" table__header title-font"><label>Screenshots</label>
-        <div class="grid grid-flow-row">
-          <ul class="table__item "><img alt="img" /></ul>
+      <!-- encabezado -->
+      <div class="grid grid-cols-6 bg-gray-100 h-7">
+        <div class="col-span-3 flex ">
+          <span class="flex title-font items-end">
+            <h2>Steps</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end">
+            <h2>Screenshots</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end">
+            <h2>Outcome</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end ">
+            <h2>Duration</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
         </div>
       </div>
-      <div class=" table__header title-font">
-        
-        <span class="flex items-center">
-          <label>Outcome</label>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
-          </svg>
-        </span>
-        <div class="grid grid-flow-row">
+      <!-- fila 1-->
+      <div class="grid grid-cols-6 mt-3">
+        <div class="col-span-3  ">
+          <ul class="table__item  ">
+            <span class="text-passed mr-2 ">+</span>
+            Given that Ricardo has Ricardo has Ricardo
+            has Ricardo has Ricardo has Ricardo has signed up with his personal information
+          </ul>
+        </div>
+        <div class="col-span-1  ">
+          <ul>
+          
+          </ul>
+        </div>
+        <div class="col-span-1 ">
           <ul class="table__item ">SUCESS</ul>
-          <ul class="table__item  text-failed">SUCESS</ul>
+        </div>
+        <div class="col-span-1  ">
+            <ul class="table__item  "> null ms </ul>
+        </div>
+      </div>
+       <!-- fila 2-->
+       <div class="grid grid-cols-6 mt-3 text-failed ">
+        <div class="col-span-3 ">
+          <ul class="table__item  ">
+            <span class="text-passed mr-2 ">+</span>
+            Then he should be able see that the 'Email
+          Verification' page is complete displayed
+          </ul>
+        </div>
+        <div class="col-span-1  ">
+          <ul>
+          
+          </ul>
+        </div>
+        <div class="col-span-1 ">
+          <ul class="table__item ">SUCESS</ul>
+        </div>
+        <div class="col-span-1  ">
+            <ul class="table__item  "> null ms </ul>
         </div>
       </div>
 
-      <div class=" table__header title-font">
-        <span class="flex items-center">
-          <label>Duration</label>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" class="w-5 h-5 ">
-            <path strokeLinecap="round" strokeLinejoin="round" d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
-          </svg>
-        </span>
-        <div class="grid grid-flow-row">
-          <ul class="table__item  "> null ms </ul>
-          <ul class="table__item  text-failed"> null ms</ul>
-        </div>
-    </section>
-    </div>
-  </section>
 
+    </section>
+       </div>
+
+
+  <!-- <a href="../src/home.html">next</a> -->
 
 
   </div>
 
   <script type="module" src="/src/main.jsx"></script>
+
+  
 
 </body>
 
