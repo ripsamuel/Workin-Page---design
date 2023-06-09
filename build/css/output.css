@@ -558,12 +558,12 @@ video {
   font-weight: 600;
 }
 
-.table__item {
-  margin-top: 1rem;
+.table__row {
+  margin-top: 1.25rem;
   height: auto;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 1.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
   font-weight: 300;
 }

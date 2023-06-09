@@ -10,8 +10,8 @@
     @apply text-lg font-semibold ;
 }
 
-.table__item {
-    @apply  mt-4 text-xl font-light px-2 h-auto;
+.table__row {
+    @apply  h-auto mt-5 text-lg font-light px-3 ;
 }
 
 .modal {
