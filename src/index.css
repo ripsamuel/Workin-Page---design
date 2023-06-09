@@ -11,7 +11,7 @@
 }
 
 .table__item {
-    @apply  mt-4 text-xl font-light px-2 ;
+    @apply  mt-4 text-xl font-light px-2 h-auto;
 }
 
 .modal {
