@@ -57,7 +57,7 @@
     <section>
       <!-- encabezado -->
       <div class="encabezado  grid grid-cols-6 bg-gray-100 h-7" >
-        <div class="col-span-3 flex ">
+        <div class="col-step col-span-3 flex ">
           <span class="flex title-font items-end">
             <h2>Steps</h2>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
@@ -104,7 +104,7 @@
       </div>
       <!-- fila 1-->
       <div class="fila grid grid-cols-6 mt-3">
-        <div class="  col-span-3  ">
+        <div class="col-step  col-span-3  ">
           <ul class="table__item  ">
             <span class="text-passed mr-2 ">+</span>
             Given that Ricardo has Ricardo has Ricardo
@@ -125,7 +125,7 @@
       </div>
       <!-- fila 2-->
       <div class="fila grid grid-cols-6 mt-3 text-failed ">
-        <div class="col-span-3 ">
+        <div class="col-step col-span-3 ">
           <ul class="table__item  ">
             <span class="text-passed mr-2 ">+</span>
             Then he should be able see that the 'Email
@@ -161,6 +161,9 @@
       .fila{
         grid-template-columns: repeat(6, minmax(0, 1fr));
 
+      }
+      .col-step {
+        grid-column: span 3 / span 3;
       }
     </style>
 
