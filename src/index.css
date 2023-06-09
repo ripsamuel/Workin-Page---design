@@ -13,9 +13,7 @@
 .table__item {
     @apply  mt-4 text-xl font-light px-2 ;
 }
-.table__header {
-    @apply bg-gray-100 h-6 px-4 ;
-}
+
 .modal {
     @apply absolute visible top-6 w-24 overflow-visible z-10 block;
 }

@@ -567,14 +567,6 @@ video {
   font-weight: 300;
 }
 
-.table__header {
-  height: 1.5rem;
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
 .modal {
   visibility: visible;
   position: absolute;
