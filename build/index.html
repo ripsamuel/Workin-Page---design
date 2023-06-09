@@ -103,7 +103,7 @@
         </div>
       </div>
       <!-- fila 1-->
-      <div class="fila grid grid-cols-6 mt-3 table__row">
+      <div class="fila grid grid-cols-6 mt-3 ">
         <div class="col-step  col-span-3  ">
           <ul >
             <span class="text-passed mr-2 ">+</span>
@@ -124,7 +124,7 @@
         </div>
       </div>
       <!-- fila 2-->
-      <div class="fila grid grid-cols-6 mt-3 text-failed table__row">
+      <div class="fila grid grid-cols-6 mt-3 text-failed">
         <div class="col-step col-span-3 ">
           <ul >
             <span class="text-passed mr-2 ">+</span>
@@ -138,7 +138,7 @@
           </ul>
         </div>
         <div >
-          <ul class=" ">SUCESS</ul>
+          <ul>SUCESS</ul>
         </div>
         <div >
           <ul > null ms </ul>
@@ -159,10 +159,19 @@
       }
       .fila{
         grid-template-columns: repeat(6, minmax(0, 1fr));
+        height: auto;
+        margin-top: 0.75rem;
+        font-size: 1.125rem;
+        font-weight: 300;
+        line-height: 1.75rem;
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
 
       }
       .col-step {
         grid-column: span 3 / span 3;
+      }
+       
       }
     </style>
 

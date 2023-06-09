@@ -10,10 +10,6 @@
     @apply text-lg font-semibold ;
 }
 
-.table__row {
-    @apply  h-auto mt-5 text-lg font-light px-3 ;
-}
-
 .modal {
     @apply absolute visible top-6 w-24 overflow-visible z-10 block;
 }
