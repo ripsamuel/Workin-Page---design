@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "build": "tailwind build -i ./src/index.css -o ./build/css/output.css",
-     "build2": "tailwind build -i ./src/home.css -o ./build/css/output.css"
+     "build": "tailwind build -i ./src/index.css -o ./build/css/output.css"
 
   },
   "keywords": [],
