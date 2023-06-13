@@ -12,3 +12,12 @@ breadboard design test
 
 
 ![69](https://github.com/ripsamuel/Workin-Page---design/assets/104223467/6415be81-58ce-4f71-9fd1-c6e51d964b11)
+
+
+# you can see it online at
+Y-Cares Screens 66 -67
+`https://deploy-test-f1vc.onrender.com/`
+
+Y-Cares Screens 68 - 69
+`https://ripsamuel.github.io/Workin-Page---design/src/home.html`
+
