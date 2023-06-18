@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html class="bg-slate-100 overflow-y-scroll"lang="en">
+<html class="bg-slate-100 overflow-y-scroll" lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
   <link href="../build/css/output.css" rel="stylesheet">
 
   <style>
@@ -12,16 +13,18 @@
 
     /* Ajusta la altura del contenido principal */
     @media (max-width: 640px) {
-        body {
-            width: 100%;
-            height: 100%; /* Ajusta la altura según sea necesario */
-            overflow-y: auto; /* Agrega desplazamiento vertical si el contenido es más largo que la altura */
-            
-        }
-    }
-</style>
+      body {
+        width: 100%;
+        height: 100%;
+        /* Ajusta la altura según sea necesario */
+        overflow-y: auto;
+        /* Agrega desplazamiento vertical si el contenido es más largo que la altura */
 
-<!-- js of menu list btn -->
+      }
+    }
+  </style>
+
+  <!-- js of menu list btn -->
   <script>
     function changeContent(parrafo, nuevoContenido) {
       parrafo.textContent = nuevoContenido;
@@ -29,225 +32,587 @@
   </script>
 
 </head>
-<body>
 
-<!-- head -->
-    <section >
-      <nav class="flex justify-between mb-10 sm:m-0">
-        <p class="font-bold text-3xl px-10 sm:px-20 pt-10 pb-6">Y-Cares</p>
-        <div class="flex justify-around ">
-          <div class="m-4 flex items-end">
-            <div class="mr-4 text-blue-500">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 mb-1 mr-3">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
-              </svg>
-              
-            </div>
-            <figure class=" w-12 h-12 mr-4">
-              <img  class="w-full h-full object-cover rounded-full"src="https://picsum.photos/200/300"/>
-            </figure>
+<body class="">
+
+  <!-- head -->
+  <section>
+    <nav class="flex justify-between mb-10 sm:m-0">
+      <p class="font-bold text-3xl px-10 sm:px-20 pt-10 pb-6">Y-Cares</p>
+      <div class="flex justify-around ">
+        <div class="m-4 flex items-end">
+          <div class="mr-4 text-blue-500">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="w-8 h-8 mb-1 mr-3">
+              <path stroke-linecap="round" stroke-linejoin="round"
+                d="M14.857 17.082a23.848 23.848 0 005.454-1.31A8.967 8.967 0 0118 9.75v-.7V9A6 6 0 006 9v.75a8.967 8.967 0 01-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 01-5.714 0m5.714 0a3 3 0 11-5.714 0" />
+            </svg>
+
           </div>
-        </div>
-        </nav>
-      </nav>
-    </section>
-
-
-<!-- menu -->
-
-    <section class=" bg-gray-100 border-2 mb-10 sm:mb-0">
-      <nav class="sm:grid sm:grid-cols-7 ml-10 mr-8 sm:ml-16 ">
-
-        <!-- columna 1 -->
-          <div class=" relative col-span-1 border ">
-            <div class="grid">
-              <div for="" class="text-blue-500 text-xs mt-3 ml-3">PROJECT NAME</div>
-
-              <div class="flex justify-between ">
-                <label class=" pl-4 pt-1 pb-3 title-font " id="label1">YMatic</label>
-                <span class="pb-2 pr-4  ">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" mt-2 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                  </svg>
-
-                </span>
-              </div>
-            </div>
-            <!-- modal submenu -->
-            <ul name="submenu" id="option-1" for="option-1" class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label1, 'YMatic')" >YMatic</button>
-              </li>
-            </ul>
-          </div>
-          <!-- columna 2 -->
-          <div class=" relative col-span-1 border  ">
-            <div class="grid">
-              <div  class="text-blue-500 text-xs mt-3 ml-3">COMPONENT TYPE</div>
-
-              <div class="flex justify-between ">
-                <label class=" pl-4 pt-1 pb-3 title-font " id="label2">Browser</label>
-                <span class="pb-2 pr-4  ">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" mt-2 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                  </svg>
-
-                </span>
-              </div> 
-            </div>
-            <!-- modal submenu -->
-            <ul name="submenu" id="option-1" for="option-1" class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label2, 'Browser')" >Browser</button>
-              </li>
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label2, 'Device')" >Device</button>
-              </li>
-            </ul>
-          </div>
-
-          <!-- columna 3 -->
-          <div class=" relative col-span-1 border  ">
-            <div class="grid">
-              <div for="" class="text-blue-500 text-xs mt-3 ml-3">DEVICE TYPE</div>
-
-              <div class="flex justify-between ">
-                <label class=" pl-4 pt-1 pb-3 title-font " id="label3">Firefox</label>
-                <span class="pb-2 pr-4  ">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" mt-2 w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                  </svg>
-
-                </span>
-              </div>
-            </div>
-            
-            <!-- modal submenu -->
-            <ul name="submenu" id="option-1" for="option-1" class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
-              <li class="m-4 title-font ">
-                <button onclick="changeContent(label3, 'Bing')" >Bing</button>
-              </li>
-              <li class="m-4 title-font ">
-                <button onclick="changeContent(label3, 'Chrome')" >Chrome</button>
-              </li>
-              <li class="m-4 title-font ">
-                <button onclick="changeContent(label3, 'Firefox')" >Firefox</button>
-              </li>
-              <li class="m-4 title-font ">
-                <button onclick="changeContent(label3, 'Windows')" >Windows</button>
-              </li>
-              <li class="m-4 title-font ">
-                <button onclick="changeContent(label3, 'Linux')" >Linux</button>
-              </li>
-            </ul>
-          </div>
-
-
-          <!-- columna 4 -->
-          <div class=" relative col-span-1 border  ">
-            <div for="" class="text-blue-500 text-xs mt-3 ml-3">VERSION</div>
-
-            <div class="flex justify-between ">
-              <label class=" pl-4 pt-1 pb-3 title-font " id="label4">16.3</label>
-              <span class="pb-2 pr-4  ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class=" mt-2 w-6 h-6">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
-                </svg>
-
-              </span>
-            </div>
-            <!-- modal submenu -->
-            <ul name="submenu" id="option-1" for="option-1" class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label4, '12.1')" >12.1</button>
-              </li>
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label4, '12.5')" >12.5</button>
-              </li>
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label4, '13.4')" >13.4</button>
-              </li>
-              <li href="" class="m-4 title-font ">
-                <button onclick="changeContent(label4, '16.3')" >16.3</button>
-              </li>
-            </ul>
-          </div>
-
-          <!-- columna 5 -->
-          <!-- DATE UPDATE -->
-        <div class="col-span-3 flex justify-end items-center">
-            <div class="flex font-semibold text-gray-500 text-sm">
-              <h2 class="mr-1">UPDATED</h2>
-              <h2 id="fecha-hora"></h2>
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="text-blue-500 ml-6 w-6 h-6 mr-4">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
-              </svg>
-            </div>
-            <script>
-              // Función para obtener la fecha y hora actual
-              function getDateTime() {
-                var fechaHora = new Date(); // Obtenemos la fecha y hora actual
-                // Formateamos la fecha y hora
-                var fechaHoraFormateada = fechaHora.toLocaleString();
-                // Actualiza el contenido de la etiqueta con la fecha y hora
-                document.getElementById("fecha-hora").textContent = fechaHoraFormateada;
-              }
-              getDateTime();
-            </script>
-          </div>
-      </div>
-    </section>
-
-<!-- content -->
-    <section class="contents  sm:block pl-24 pt-28  pb-16">
-      <main class="  sm:grid sm:grid-flow-col sm:grid-cols-3 mb-10 sm:m-0">
-        <article class="sm:col-span-2 pb-24">
-          <h1 class="font-normal ml-10 text-7xl sm:text-9xl">Good Morning, Things are running smoothly today.</h1>
-        </article>
-        <aside class="sm:col-span-1 w-full h-full">
-          <div class="ml-8 w-80 h-80 sm:h-96 sm:w-96 rounded-full bg-green-500 border-2 border-green-600"></div>
-        </aside>
-      </main>
-      <div class="sm:flex ml-10  ">
-        <div class="flex items-center m-2 mb-3">
-          <div class="bg-passed w-2 h-2 m-1"></div>
-          <p class="text-sm">PASSED</p>
-        </div>
-        <div class="flex items-center m-2 mb-3">
-          <div class="bg-failed w-2 h-2 m-1"></div>
-          <p class="text-sm">FAILED</p>
-        </div>
-        <div class="flex items-center m-2 mb-3">
-          <div class="bg-skipped w-2 h-2 m-1"></div>
-          <p class="text-sm">SKIPPED</p>
-        </div>
-        <div class="flex items-center m-2 mb-3">
-          <div class="bg-pending w-2 h-2 m-1"></div>
-          <p class="text-sm">PENDING</p>
-        </div>
-        <div class="flex items-center m-2 mb-3">
-          <div class="bg-undefined w-2 h-2 m-1"></div>
-          <p class="text-sm">UNDEFINED</p>
+          <figure class=" w-12 h-12 mr-4">
+            <img class="w-full h-full object-cover rounded-full" src="https://picsum.photos/200/300" />
+          </figure>
         </div>
       </div>
-    </section>
+    </nav>
+    </nav>
+  </section>
 
 
-<style>
-  .relative:hover .absolute {
-    opacity: 1;
-    visibility: visible;
-    z-index: 2;
+  <!-- menu -->
 
-  }
-  .relative:hover{
-    opacity: 1;
-    visibility: visible;
-    background-color: white;
-  }
-</style>
+  <section class=" bg-gray-100 border-2 mb-10 sm:mb-0">
+    <nav class="sm:grid sm:grid-cols-7 ml-10 mr-8 sm:ml-16 ">
+
+      <!-- columna 1 -->
+      <div class=" relative col-span-1 border ">
+        <div class="grid">
+          <div for="" class="text-blue-500 text-xs mt-3 ml-3">PROJECT NAME</div>
+
+          <div class="flex justify-between ">
+            <label class=" pl-4 pt-1 pb-3 title-font " id="label1">YMatic</label>
+            <span class="pb-2 pr-4  ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class=" mt-2 w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </span>
+          </div>
+        </div>
+        <!-- modal submenu -->
+        <ul name="submenu" id="option-1" for="option-1"
+          class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
+          <li class="title-font ">
+            <button onclick="changeContent(label1, 'YMatic')">YMatic</button>
+          </li>
+        </ul>
+      </div>
+      <!-- columna 2 -->
+      <div class=" relative col-span-1 border  ">
+        <div class="grid">
+          <div class="text-blue-500 text-xs mt-3 ml-3">COMPONENT TYPE</div>
+
+          <div class="flex justify-between ">
+            <label class=" pl-4 pt-1 pb-3 title-font " id="label2">Browser</label>
+            <span class="pb-2 pr-4  ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class=" mt-2 w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </span>
+          </div>
+        </div>
+        <!-- modal submenu -->
+        <ul name="submenu" id="option-1" for="option-1"
+          class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
+          <li class="title-font ">
+            <button onclick="changeContent(label2, 'Browser')">Browser</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label2, 'Device')">Device</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- columna 3 -->
+      <div class=" relative col-span-1 border  ">
+        <div class="grid">
+          <div for="" class="text-blue-500 text-xs mt-3 ml-3">DEVICE TYPE</div>
+
+          <div class="flex justify-between ">
+            <label class=" pl-4 pt-1 pb-3 title-font " id="label3">Firefox</label>
+            <span class="pb-2 pr-4  ">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class=" mt-2 w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+              </svg>
+
+            </span>
+          </div>
+        </div>
+
+        <!-- modal submenu -->
+        <ul name="submenu" id="option-1" for="option-1"
+          class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
+          <li class="title-font ">
+            <button onclick="changeContent(label3, 'Bing')">Bing</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label3, 'Chrome')">Chrome</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label3, 'Firefox')">Firefox</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label3, 'Windows')">Windows</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label3, 'Linux')">Linux</button>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- columna 4 -->
+      <div class=" relative col-span-1 border  ">
+        <div for="" class="text-blue-500 text-xs mt-3 ml-3">VERSION</div>
+
+        <div class="flex justify-between ">
+          <label class=" pl-4 pt-1 pb-3 title-font " id="label4">16.3</label>
+          <span class="pb-2 pr-4  ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class=" mt-2 w-6 h-6">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+
+          </span>
+        </div>
+        <!-- modal submenu -->
+        <ul name="submenu" id="option-1"
+          class="absolute w-full bg-white opacity-0 invisible transition-opacity duration-300 ease-in-out hover:block rounded-t-none rounded-b-xl border ">
+          <li class="title-font ">
+            <button onclick="changeContent(label4, '12.1')">12.1</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label4, '12.5')">12.5</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label4, '13.4')">13.4</button>
+          </li>
+          <li class="title-font ">
+            <button onclick="changeContent(label4, '16.3')">16.3</button>
+          </li>
+        </ul>
+      </div>
+
+      <!-- columna 5 -->
+      <!-- DATE UPDATE -->
+      <div class="col-span-3 flex justify-end items-center border">
+        <div class="flex font-semibold text-gray-500 text-sm">
+          <h2 class="mr-1">UPDATED</h2>
+          <h2 id="fecha-hora"></h2>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+            stroke="currentColor" class="text-blue-500 ml-6 w-6 h-6 mr-4">
+            <path stroke-linecap="round" stroke-linejoin="round"
+              d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+          </svg>
+        </div>
+        <script>
+          // Función para obtener la fecha y hora actual
+          function getDateTime() {
+            var fechaHora = new Date(); // Obtenemos la fecha y hora actual
+            // Formateamos la fecha y hora
+            var fechaHoraFormateada = fechaHora.toLocaleString();
+            // Actualiza el contenido de la etiqueta con la fecha y hora
+            document.getElementById("fecha-hora").textContent = fechaHoraFormateada;
+          }
+          getDateTime();
+        </script>
+      </div>
+      </div>
+  </section>
+
+  <!-- content -->
+  <section class="contents  sm:block pl-24 pt-28  pb-16">
+    <main class="  sm:grid sm:grid-flow-col sm:grid-cols-3 mb-10 sm:m-0">
+      <article class="sm:col-span-2 pb-24">
+        <h1 class="font-normal ml-10 text-7xl sm:text-9xl">Good Morning, Things are running smoothly today.</h1>
+      </article>
+      <aside class="sm:col-span-1 w-full h-full">
+        <div class="ml-8 w-80 h-80 sm:h-96 sm:w-96 rounded-full bg-green-500 border-2 border-green-600"></div>
+      </aside>
+    </main>
+    <div class="sm:flex ml-10  ">
+      <div class="flex items-center m-2 mb-3">
+        <div class="bg-passed w-2 h-2 m-1"></div>
+        <p class="text-sm">PASSED</p>
+      </div>
+      <div class="flex items-center m-2 mb-3">
+        <div class="bg-failed w-2 h-2 m-1"></div>
+        <p class="text-sm">FAILED</p>
+      </div>
+      <div class="flex items-center m-2 mb-3">
+        <div class="bg-skipped w-2 h-2 m-1"></div>
+        <p class="text-sm">SKIPPED</p>
+      </div>
+      <div class="flex items-center m-2 mb-3">
+        <div class="bg-pending w-2 h-2 m-1"></div>
+        <p class="text-sm">PENDING</p>
+      </div>
+      <div class="flex items-center m-2 mb-3">
+        <div class="bg-undefined w-2 h-2 m-1"></div>
+        <p class="text-sm">UNDEFINED</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- outcomes -->
+  <div class="ml-10 mt-8 p-4 sm:px-8 bg-white rounded-3xl mb-20">
+    <p class="font-semibold text-5xl  mt-10 mb-8">Test Outcomes For Features</p>
+    <div class="">
+      <!-- encabezado -->
+      <div class="encabezado  grid grid-cols-7 bg-gray-100 h-7 text-lg">
+        <div class="col-step col-span-2 flex ">
+          <span class="flex title-font items-end">
+            <h2>Features</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end">
+            <h2>Test Cases</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end">
+            <h2>Scenarios</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end">
+            <h2>% Pass </h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end ">
+            <h2>Result</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+        <div class="col-span-1 flex ">
+          <span class="flex title-font items-end ">
+            <h2>Coverage</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5"
+              stroke="currentColor" class="w-5 h-5 ">
+              <path strokeLinecap="round" strokeLinejoin="round"
+                d="M3 7.5L7.5 3m0 0L12 7.5M7.5 3v13.5m13.5 0L16.5 21m0 0L12 16.5m4.5 4.5V7.5" />
+            </svg>
+          </span>
+
+        </div>
+      </div>
+
+      <!-- filas -->
+    <main class="mb-10">
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+      <!-- fila 1-->
+      <div class="fila grid grid-cols-7 mt-3 ">
+        <div class="col-step  col-span-2  ">
+          <ul>
+            YML Feature
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            5
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            6
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="col-step  col-span-1  ">
+          <ul>
+            100
+          </ul>
+        </div>
+        <div class="w-full bg-green-300 ">
+        </div>
+      </div>
+    
+    </main>
+    <div class="flex justify-between m-8 border-t-2 mt-10">
+      <div class="flex gap-2 mt-10">
+        <p> Showing</p>
+        <span>
+          1
+        </span>
+        <p>to</p>
+        <span>
+          12
+        </span>
+        <p>of</p>
+        <span>
+          24
+        </span>
+        <p>entries</p>
+      </div>
+      <div class=" flex gap-3 mt-10 text-xl">
+        <span><</spa>
+          <a class="">1</a>
+          <a>2</a>
+        <span>></spa>
+
+      </div>
+
+
+    </div>
+
+  </div>
+  </section>
+  </div>
+
+  <style>
+    .relative:hover .absolute {
+      opacity: 1;
+      visibility: visible;
+      z-index: 2;
+
+    }
+
+    .relative:hover {
+      opacity: 1;
+      visibility: visible;
+      background-color: white;
+    }
+  </style>
 
 
 
 </body>
+
 </html>

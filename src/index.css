@@ -7,7 +7,7 @@
     @apply  text-sm w-20 h-10 bg-blue-500 text-white rounded-lg font-medium text-center items-center;
 }
 .title-font {
-    @apply text-lg font-semibold ;
+    @apply text-lg font-semibold m-2 pl-2 ;
 }
 
 .modal {
